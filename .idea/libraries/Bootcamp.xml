@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Bootcamp">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Bootcamp.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
