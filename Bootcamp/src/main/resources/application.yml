@@ -27,5 +27,5 @@ deployment:
     branch: main
     commands:
         git remote add heroku git@heroku.com:herokuapplicationname.git
-        "[[ ! -s \"$(git rev-parse --git-dir)/shallow\" ]] || git fetch --unshallow"
-        cd ../../.. && git subtree push --prefix GitHubPath/to/application heroku master
+       "[[ ! -s \"$(git rev-parse --git-dir)/shallow\" ]] || git fetch --unshallow"
+        cd ../../.. && git subtree push --prefix GitHubPath/to/application heroku main
