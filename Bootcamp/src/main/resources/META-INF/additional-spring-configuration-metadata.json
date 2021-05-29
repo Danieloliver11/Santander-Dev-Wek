@@ -1,5 +1,17 @@
-{"properties": [{
-  "name": "spring.datasource.driver-clase-name",
-  "type": "java.lang.String",
-  "description": "A description for 'spring.datasource.driver-clase-name'"
-}]}
+{"properties": [
+  {
+    "name": "spring.datasource.driver-clase-name",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.datasource.driver-clase-name'"
+  },
+  {
+    "name": "deployment.staging.branch",
+    "type": "java.lang.String",
+    "description": "A description for 'deployment.staging.branch'"
+  },
+  {
+    "name": "deployment.staging.commands",
+    "type": "java.lang.String",
+    "description": "A description for 'deployment.staging.commands'"
+  }
+]}

@@ -16,5 +16,16 @@ spring:
     hibernate:
       ddl-auto: none
       
-application:
-  description: Projeto criado para o bootcamp DIO - Santander
+  application:
+    description: Projeto criado para o bootcamp DIO - Santander
+
+  
+  
+  
+deployment:
+  staging:
+    branch: main
+    commands:
+        git remote add heroku git@heroku.com:herokuapplicationname.git
+        "[[ ! -s \"$(git rev-parse --git-dir)/shallow\" ]] || git fetch --unshallow"
+        cd ../../.. && git subtree push --prefix GitHubPath/to/application heroku master
