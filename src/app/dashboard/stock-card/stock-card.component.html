@@ -1,0 +1,16 @@
+<!--condicao para meu css. adiciona nessa classe.˜css nome˜,somente quando stock.variation < 0  -->
+<div class="stock-card-container" [class.negativa-variation]="stock.variation < 0">
+
+  <div class="stock-info">
+    <h2>{{stock.name}}</h2>
+    <p>{{stock.date}}</p>
+  </div>
+
+  <div class="stock-value" >
+    <span class="value">{{stock.price | currency:'BRL'}}</span>
+    <span class="caixinha"[class.caixinhaMuda]="stock.variation < 0"> {{stock.variation}}% </span>
+  </div>
+
+</div>
+
+
