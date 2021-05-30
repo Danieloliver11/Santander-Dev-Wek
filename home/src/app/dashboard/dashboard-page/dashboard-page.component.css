@@ -1,0 +1,8 @@
+.container{
+  justify-content: center;
+  width: 100%;
+  padding: 1px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; /* ele nao deixa quebrar a tela e os elementos sairem dela */
+}
