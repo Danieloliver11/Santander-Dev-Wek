@@ -1,0 +1,22 @@
+<div class="bg">
+<div class="stock-card-container" >
+
+  <div class="stock-info">
+    <input [(ngModel)]='stock.name' type="text" name="nome" id="nome" placeholder="Nome">
+  </div>
+  <div class="stock-info">
+    <input [(ngModel)]='stock.date' type="text" placeholder="data">
+
+  </div>
+
+  <div class="stock-value" >
+    <input [(ngModel)]='stock.price' type="number" placeholder="preço">
+  </div>
+  <div class="stock-value" >
+    <input [(ngModel)]='stock.variation'  type="number" placeholder="variação">
+
+  </div>
+  <button  (click)='postarStok()'>Postar</button>
+</div>
+
+</div>
